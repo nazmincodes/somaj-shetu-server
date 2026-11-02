@@ -1,0 +1,19 @@
+{
+  "name": "shomaj-setu-server",
+  "version": "1.0.0",
+  "description": "Express + MongoDB API for the Shomaj Setu social development events platform",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jose": "^5.9.6",
+    "mongodb": "^6.12.0"
+  }
+}
