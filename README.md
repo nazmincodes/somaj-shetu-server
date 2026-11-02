@@ -29,5 +29,5 @@ Protected routes verify the JWT issued by BetterAuth (client app) through its JW
 | DELETE | `/joins/:eventId` | JWT | Leave an event |
 
 ## Deploy (Vercel)
-`vercel.json` is included. Add the four env variables in the Vercel dashboard and allow
+`vercel.json` is included. Add the four env variables in the Vercel dashboard and allow to
 Vercel to reach MongoDB Atlas (Network Access → `0.0.0.0/0`).
