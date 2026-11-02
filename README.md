@@ -29,4 +29,4 @@ Protected routes verify the JWT issued by BetterAuth (client app) through its JW
 
 ## Deploy (Vercel)
 `vercel.json` is included. Add the four env variables in the Vercel dashboard and allow
-Vercel to reach MongoDB Atlas (Network Access → `0.0.0.0/0`).
+Vercel to reach MongoDB Atlas (Network Access → `0.0.0.0/0`)..
