@@ -7,7 +7,7 @@ Protected routes verify the JWT issued by BetterAuth (client app) through its JW
 1. `npm install`
 2. Fill the values in `.env` (names are already there):
    - `PORT` – e.g. 5000
-   - `MONGODB_URI` – your MongoDB connection string
+   - `MONGODB_URI` – your MongoDB connection string.
    - `DB_NAME` – database name (use the same one as the client `MONGODB_DB`)
    - `CLIENT_URL` – URL of the Next.js client (no trailing slash)
 3. `npm run dev` (or `npm start`)
@@ -29,4 +29,4 @@ Protected routes verify the JWT issued by BetterAuth (client app) through its JW
 
 ## Deploy (Vercel)
 `vercel.json` is included. Add the four env variables in the Vercel dashboard and allow
-Vercel to reach MongoDB Atlas (Network Access → `0.0.0.0/0`)..
+Vercel to reach MongoDB Atlas (Network Access → `0.0.0.0/0`).
