@@ -1,7 +1,7 @@
 # Shomaj Setu — Server*
 
 Express + MongoDB REST API for the Shomaj Setu social development events platform.
-Protected routes verify the JWT issued by BetterAuth (client app) through its JWKS endpoint.
+Protected routes verify to the JWT issued by BetterAuth (client app) through its JWKS endpoint.
 
 ## Setup
 1. `npm install`
@@ -29,5 +29,5 @@ Protected routes verify the JWT issued by BetterAuth (client app) through its JW
 | DELETE | `/joins/:eventId` | JWT | Leave an event |
 
 ## Deploy (Vercel)
-`vercel.json` is included. Add the four env variables in the Vercel dashboard and allow to
+`vercel.json` is included. Add the four env variables in the Vercel dashboard and allow
 Vercel to reach MongoDB Atlas (Network Access → `0.0.0.0/0`).
