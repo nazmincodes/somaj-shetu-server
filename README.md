@@ -1,4 +1,4 @@
-# Shomaj Setu — Server
+# Shomaj Setu — Server*
 
 Express + MongoDB REST API for the Shomaj Setu social development events platform.
 Protected routes verify the JWT issued by BetterAuth (client app) through its JWKS endpoint.
